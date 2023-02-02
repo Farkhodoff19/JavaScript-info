@@ -2,7 +2,7 @@
 //   console.log("hi");
 // }
 
-// let i = 3;
+// let i = 5;
 // while (i) {
 //   console.log(i);
 //   i--;
