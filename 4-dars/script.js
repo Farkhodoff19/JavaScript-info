@@ -3,8 +3,8 @@
 //   case (age = 19):
 //     console.log("Siz 19 yoshda ekansiz");
 //   break;
-//   case (age = 20):
-//     console.log("Siz 20 yoshda ekansiz");
+//   case (age = 22):
+//     console.log("Siz 22 yoshda ekansiz");
 //     break;
 //   case (age = 21):
 //     console.log("Siz 21 yoshda ekansiz");
