@@ -40,11 +40,13 @@
 let schedule = {};
 
 function isEmpty(obj) {
-  if (obj === "") {
-    console.log(true);
+  if (obj === {}) {
+    return obj;
   } else {
-    console.log(false);
+    return obj;
   }
 }
 
-isEmpty(schedule);
+// schedule["8:30"] = "Get up";
+
+console.log(isEmpty(schedule));
