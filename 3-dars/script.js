@@ -18,7 +18,7 @@
 // console.log(2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2); //4096
 // console.log(2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2); //8192
 
-let message;
-let login = "";
+// let message;
+// let login = "";
 
 
