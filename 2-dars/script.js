@@ -1,4 +1,4 @@
-// let name = 9;
+// let name = "Farkhodoff";
 // surName = "9";
 // console.log(typeof (name + surName));
 
