@@ -37,16 +37,44 @@
 // delete person.name;
 // console.log(person);
 
-let schedule = {};
+// let schedule = {};
 
-function isEmpty(obj) {
-  if (obj === {}) {
-    return obj;
-  } else {
-    return obj;
-  }
-}
+// function isEmpty(obj) {
+//   if (obj === {}) {
+//     return obj;
+//   } else {
+//     return obj;
+//   }
+// }
 
 // schedule["8:30"] = "Get up";
 
-console.log(isEmpty(schedule));
+// console.log(isEmpty(schedule));
+
+// let salaries = {
+//   John: 100,
+//   Ann: 160,
+//   Pete: 130,
+// };
+
+// for (let key in salaries) {
+//   if (key > key) {
+//     console.log(key, obj[key]);
+//   }
+// }
+
+// console.log(salaries);
+
+let menu = {
+  widht: 200,
+  height: 300,
+  title: "My menu",
+};
+
+for (let key in menu) {
+  if (typeof menu[key] === "number") {
+    menu[key] = menu[key] * 2;
+  }
+}
+
+console.log(menu);
