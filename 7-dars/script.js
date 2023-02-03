@@ -23,11 +23,12 @@
 
 // console.log(sum);
 
-let user = {
-  name: "Farkhodoff",
-  sayHi() {
-    console.log(`Hi ${this.name}`);
-  },
-};
+// let user = {
+//   name: "Farkhodoff",
+//   sayHi() {
+//     console.log(`Hi ${this.name}`);
+//   },
+// };
 
-user.sayHi();
+// user.sayHi();
+
