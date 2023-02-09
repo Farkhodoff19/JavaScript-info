@@ -7,6 +7,6 @@ let arr = [
   { id: 1, year: 2005, name: "Farhodov Og'abek" },
 ];
 
-let response = arr.filter((value) => value.year === 2003);
+// let response = arr.filter((value) => value.year === 2003);
 
-console.log(response);
+// console.log(response);
