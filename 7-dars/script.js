@@ -32,3 +32,24 @@
 
 // user.sayHi();
 
+let person = {
+  name: `Farkodof`,
+  ae: 19,
+  cild: {
+    name: `Cros`,
+    ae: 21,
+    cild: {
+      ae: 22,
+    },
+  },
+};
+
+let sum = 0;
+
+while (person) {
+  sum = sum + person.ae;
+
+  person = person.cild;
+}
+
+console.log(sum);
