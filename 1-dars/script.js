@@ -37,14 +37,19 @@
 // ==============
 // Object - array, obj, function
 
-let ar = ["Muhammad", 12, "Iqboljon"]; // index
-let obj = { name: "webbrain", status: "IT Center" }; // key
-let func = () => {};
-function test() {
-  console.log(ar[0]);
-  console.log(obj.name);
-}
+// let ar = ["Muhammad", 12, "Iqboljon"]; // index
+// let obj = { name: "webbrain", status: "IT Center" }; // key
+// let func = () => {};
+// function test() {
+//   console.log(ar[0]);
+//   console.log(obj.name);
+// }
 
-test();
+// test();
 
-console.log(typeof func);
+// console.log(typeof func);
+let fName = "Farkhodoff";
+
+console.log(`hello ${1}`);
+console.log(`helo ${"name"}`);
+console.log(`hello ${fName}`);
