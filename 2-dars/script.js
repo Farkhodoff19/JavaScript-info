@@ -48,4 +48,4 @@
 //   result = "Over";
 // }
 
-console.log(!(1 !== 0 && true && "hey"));
+// console.log(!(1 !== 0 && true && "hey"));
