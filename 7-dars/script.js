@@ -56,10 +56,29 @@
 
 // DISTRUCTURE
 
-let obj = {
-  Fname: "Hello",
-  age: 19,
-};
-let { Fname, age } = obj;
+// let obj = {
+//   Fname: "Hello",
+//   age: 19,
+//   child: {
+//     chilName: "Farkhodoff",
+//   },
+// };
+// let {
+//   Fname,
+//   age,
+//   child: { chilName },
+// } = obj;
 
-console.log(Fname);
+// console.log(chilName);
+
+// SPREAD OPERATOR
+
+let obj = {
+  childName: "Farkhodoff",
+  age: 1947,
+};
+
+// console.log(obj);
+
+// obj = { ...obj.child };
+console.log({ childName: "IT CENTER", ...obj });
