@@ -1,3 +1,12 @@
+//  TYPE CONVERSION
+// console.log(true == "2");
+// console.log(true == "1");
+// console.log(true == "a");
+
+// console.log("" + 1 + 0); // 10
+// console.log("" - 1 + 0); // -1
+// console.log(true + false);
+
 // let name = "Farkhodoff";
 // surName = "9";
 // console.log(typeof (name + surName));
