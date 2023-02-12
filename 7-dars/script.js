@@ -32,26 +32,34 @@
 
 // user.sayHi();
 
-let person = {
-  name: `Farkodof`,
-  ae: 19,
-  cild: {
-    name: `Cros`,
-    ae: 21,
-    cild: {
-      ae: 22,
-    },
-  },
+// let person = {
+//   name: `Farkodof`,
+//   ae: 19,
+//   cild: {
+//     name: `Cros`,
+//     ae: 21,
+//     cild: {
+//       ae: 22,
+//     },
+//   },
+// };
+
+// let sum = 0;
+
+// while (person) {
+//   sum = sum + person.ae;
+
+//   person = person.cild;
+// }
+
+// console.log(sum);
+
+// DISTRUCTURE
+
+let obj = {
+  Fname: "Hello",
+  age: 19,
 };
+let { Fname, age } = obj;
 
-let sum = 0;
-
-while (person) {
-  sum = sum + person.ae;
-
-  person = person.cild;
-}
-
-console.log(sum);
-
-
+console.log(Fname);
