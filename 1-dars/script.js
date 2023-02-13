@@ -48,8 +48,14 @@
 // test();
 
 // console.log(typeof func);
-let fName = "Farkhodoff";
+// let fName = "Farkhodoff";
 
-console.log(`hello ${1}`);
-console.log(`helo ${"name"}`);
-console.log(`hello ${fName}`);
+// console.log(`hello ${1}`);
+// console.log(`helo ${"name"}`);
+// console.log(`hello ${fName}`);
+
+const obj = {
+  ["id2"]: "Farkhodoff",
+};
+
+console.log(obj["id2"]);

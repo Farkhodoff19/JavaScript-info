@@ -59,14 +59,14 @@
 
 // console.log(!(1 !== 0 && true && "hey"));
 
-// let message;
-// let login;
-// login == "Employe"
-//   ? (message = "hello")
-//   : login == "Director"
-//   ? (message = "Grettings")
-//   : login == ""
-//   ? (message = "no Login")
-//   : (message = "");
+let message;
+let login;
+login == "Employe"
+  ? (message = "hello")
+  : login == "Director"
+  ? (message = "Grettings")
+  : login == ""
+  ? (message = "no Login")  
+  : (message = "");
 
-// console.log(message);
+console.log(message);

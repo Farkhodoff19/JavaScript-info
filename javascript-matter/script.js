@@ -67,3 +67,23 @@
 // }
 
 // Search(obj);
+
+// No5
+// object va string berilgan.  string bor bolgan object valuelarining chiqaring
+// let obj = {
+//   id: 1,
+//   name: "atirgul",
+//   color: "qizil",
+//   count: 10,
+//   price: "10$",
+// };
+// // searchValue(obj,'i') => atirgul,qizil
+
+// // #5 Answer
+// for (let i in obj) {
+//   if (typeof obj[i] === "string") {
+//     console.log(obj[i]);
+//   }
+// }
+
+

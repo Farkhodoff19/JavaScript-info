@@ -73,12 +73,12 @@
 
 // SPREAD OPERATOR
 
-let obj = {
-  childName: "Farkhodoff",
-  age: 1947,
-};
+// let obj = {
+//   childName: "Farkhodoff",
+//   age: 1947,
+// };
 
-// console.log(obj);
+// // console.log(obj);
 
-// obj = { ...obj.child };
-console.log({ childName: "IT CENTER", ...obj });
+// // obj = { ...obj.child };
+// console.log({ childName: "IT CENTER", ...obj });
