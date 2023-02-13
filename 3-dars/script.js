@@ -21,4 +21,19 @@
 // let message;
 // let login = "";
 
+// console.log(2 ** (2 + 1) / 2);
+// console.log(true != false);
+// console.log(true !== false);
 
+// console.log(1 == "0" || (false && "hey"));
+// console.log(!(1 == "0" && true && "hey"));
+
+// console.log(false ?? true);
+// console.log(NaN ?? true);
+// console.log(NaN ?? false);
+// console.log(undefined ?? true);
+// console.log(undefined ?? false);
+
+// console.log(1 ?? undefined);
+// console.log(1 ?? null);
+// console.log(true ?? null);
