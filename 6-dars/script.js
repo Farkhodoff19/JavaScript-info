@@ -79,12 +79,41 @@
 
 // console.log(menu);
 
-let obj = {
-  name: "Farkhodoff",
+// let obj = {
+//   name: "Farkhodoff",
+// };
+
+// let Fname = "name";
+
+// console.log(obj.name);
+// console.log(obj[Fname]);
+// console.log(obj["Fname"]);
+
+// let salaries = {
+//   ann: 100,
+//   jack: 250,
+//   xaydar: 50,
+// };
+
+// if (salaries.ann > salaries.jack && salaries.jack > salaries.xaydar) {
+//   console.log(salaries.ann);
+// }
+
+// for (let value in salaries) {
+//   console.log(salaries[value]);
+// }
+
+menu = {
+  width: 400,
+  height: 600,
+  title: "My menu",
 };
 
-let Fname = "name";
+for (let key in menu) {
+  //   console.log(key, menu[key]);
+  if (typeof menu[key] === "number") {
+    menu[key] = menu[key] * 2;
+  }
+}
 
-console.log(obj.name);
-console.log(obj[Fname]);
-console.log(obj["Fname"]);
+console.log(menu);
