@@ -78,3 +78,13 @@
 // }
 
 // console.log(menu);
+
+let obj = {
+  name: "Farkhodoff",
+};
+
+let Fname = "name";
+
+console.log(obj.name);
+console.log(obj[Fname]);
+console.log(obj["Fname"]);
