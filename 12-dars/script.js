@@ -93,3 +93,25 @@ let students = [
 // getFilter({ value: 3, key: "id" });
 // // getFilter({ value: "farkhodoff", key: "name" });
 // console.log(students);
+
+// let obj = {
+//   title: "Webrain",
+//   age: 2,
+//   child: {
+//     age: 4,
+//     name: "webbrain",
+//     child: {
+//       age: 5,
+//       name: "clever",
+//     },
+//   },
+// };
+
+// let sum = 0;
+
+// while (obj) {
+//   sum += obj.age;
+//   obj = obj.child;
+// }
+
+// console.log(sum);
