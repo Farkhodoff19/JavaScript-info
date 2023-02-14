@@ -4,14 +4,14 @@
 // // UPDATE
 // // DELETE
 
-"use strict";
+// "use strict";
 
-let students = [
-  { id: 1, name: "Abbos", year: 2003 },
-  { id: 1, name: "Oga'bek", year: 2004 },
-  { id: 1, name: "Boboqul", year: 2000 },
-  { id: 1, name: "Azizbek", year: 2002 },
-];
+// let students = [
+//   { id: 1, name: "Abbos", year: 2003 },
+//   { id: 1, name: "Oga'bek", year: 2004 },
+//   { id: 1, name: "Boboqul", year: 2000 },
+//   { id: 1, name: "Azizbek", year: 2002 },
+// ];
 
 // const sortByYear = () => {
 //   let result = students.sort((a, b) => b.year - a.year);
