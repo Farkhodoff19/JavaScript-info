@@ -33,7 +33,7 @@
 //   online: true,
 //   individual: false,
 // };
-// // chiqish
+// //
 // // {   offline:true,
 // //     online:true,
 // //     individual:false
@@ -85,5 +85,4 @@
 //     console.log(obj[i]);
 //   }
 // }
-
 
