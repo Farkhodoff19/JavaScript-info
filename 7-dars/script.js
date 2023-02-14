@@ -82,3 +82,18 @@
 
 // // obj = { ...obj.child };
 // console.log({ childName: "IT CENTER", ...obj });
+
+// let obj = {
+//   name: "Farkhodoff",
+//   child: {
+//     childname: "testing name",
+//   },
+// };
+
+// const {
+//   name: newName,
+//   child: { childname },
+// } = obj;
+
+// console.log(childname);
+// console.log(newName);
