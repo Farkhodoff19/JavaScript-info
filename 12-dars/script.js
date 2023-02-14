@@ -4,38 +4,36 @@
 // // UPDATE
 // // DELETE
 
-// "use strict";
+let students = [
+  { id: 1, name: "farkhodoff", year: 2003 },
+  { id: 2, name: "to'ychi off", year: 2002 },
+  { id: 3, name: "xaydaroff", year: 2001 },
+  { id: 4, name: "askarofff", year: 2000 },
+];
 
-// let students = [
-//   { id: 1, name: "Abbos", year: 2003 },
-//   { id: 1, name: "Oga'bek", year: 2004 },
-//   { id: 1, name: "Boboqul", year: 2000 },
-//   { id: 1, name: "Azizbek", year: 2002 },
-// ];
-
-// const sortByYear = () => {
-//   let result = students.sort((a, b) => b.year - a.year);
-//   students = result;
+// CREATE
+// let createUser = (user) => {
+//   // BEST PRACTICE
+//   students = [...students, { id: students.length + 1, ...user }];
+//   // BAD PRACTICE
+//   // students.push(user);
 // };
-
-// const sortByAlphabet = () => {
-//   let result = students.sort((a, b) => a.name.localeCompare(b.name));
-//   students = result;
-// };
-
-// // sortByYear();
-// sortByAlphabet();
+// createUser({ name: "iskandaroff", year: 2021 });
 // console.log(students);
 
-// let a = 9,
-//   b = 8;
+// READ
+// let getYear = students.sort((a, b) => b.year - a.year);
+// console.log(students);
 
-// let obj = {
-//   a: 2,
-//   b: 4,
-//   c: 12,
+// let getName = students.sort((a, b) => a.name.localeCompare(b.name));
+// console.log(students);
+
+// DELETE
+// let deleteUser = (id) => {
+//   let res = students.filter((value) => value.id !== id);
+//   students = res;
 // };
 
-// ({ a, b } = obj);
-// console.log(a, b);
-
+// deleteUser(3);
+// deleteUser(2);
+// console.log(students);
