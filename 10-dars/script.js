@@ -18,3 +18,29 @@
 // console.log(arr.toString()); // arrayni stringa o'tkazish
 
 // console.log(typeof arr.join());
+
+// let arr = [1, 2, 3, 4, 5];
+let arr = ["farkhodoff", "dinazarov", "qurbonov", "tamara"];
+// for (value of arr) {
+//   console.log(value);
+// }
+
+// for (index in arr) {
+//   console.log(index);
+// }
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+//   //   console.log(i);
+// }
+// let res = arr.concat(arr2);
+
+// console.log(res);
+
+// console.log([] == 0); // true
+// console.log([] == "0"); // false
+// console.log([] == undefined); // false
+// console.log([] == false); // true
+// console.log([] == null); // false
+
+// ARRAY METHODS
+// isArray, concat, join, toString, 
