@@ -135,17 +135,17 @@ let users = [
 
 // console.log(nM);
 
-let obj = new Map([
-  ["a", 1],
-  ["b", 2],
-]).entries();
+// let obj = new Map([
+//   ["a", 1],
+//   ["b", 2],
+// ]).entries();
 
-let obj1 = new Map([
-  ["a", 1],
-  ["b", 2],
-]).entries();
+// let obj1 = new Map([
+//   ["a", 1],
+//   ["b", 2],
+// ]).entries();
 
-console.log(obj.next());
-console.log(obj1.next());
-console.log(obj.next());
-console.log(obj1.next());
+// console.log(obj.next());
+// console.log(obj1.next());
+// console.log(obj.next());
+// console.log(obj1.next());

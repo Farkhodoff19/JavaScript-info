@@ -20,7 +20,7 @@
 // console.log(typeof arr.join());
 
 // let arr = [1, 2, 3, 4, 5];
-let arr = ["farkhodoff", "dinazarov", "qurbonov", "tamara"];
+// let arr = ["farkhodoff", "dinazarov", "qurbonov", "tamara"];
 // for (value of arr) {
 //   console.log(value);
 // }
@@ -42,6 +42,19 @@ let arr = ["farkhodoff", "dinazarov", "qurbonov", "tamara"];
 // console.log([] == false); // true
 // console.log([] == null); // false
 
+const company = ["Webbrain", "Academy"];
+function getDuplicateLetters(wba) {
+  wba = wba.join("").split("");
+  const res = {};
+
+  wba.forEach((value) => {
+    res[value] = (res[value] || 0) + 1;
+  });
+
+  return res;
+}
+console.log(getDuplicateLetters(company));
+
 // ARRAY METHODS
-// isArray, concat, join, toString, splice, unshift, shift, pop,splice
+// length, isArray, concat, join, toString, unshift, shift, pop, splice
 // slice, indexOf, lastIndexOf, split, reverse, includes, push,
