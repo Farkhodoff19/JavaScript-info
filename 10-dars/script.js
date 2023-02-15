@@ -43,4 +43,5 @@ let arr = ["farkhodoff", "dinazarov", "qurbonov", "tamara"];
 // console.log([] == null); // false
 
 // ARRAY METHODS
-// isArray, concat, join, toString, 
+// isArray, concat, join, toString, splice, unshift, shift, pop,splice
+// slice, indexOf, lastIndexOf, split, reverse, includes, push,
