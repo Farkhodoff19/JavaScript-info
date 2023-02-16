@@ -50,7 +50,7 @@ function getDuplicateLetters(wba) {
   wba.forEach((value) => {
     res[value] = (res[value] || 0) + 1;
   });
-
+  
   return res;
 }
 console.log(getDuplicateLetters(company));
